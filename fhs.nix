@@ -2,14 +2,14 @@
 , pkgs
 , enableJulia ? true
 , juliaVersion ? "1.10.1"
-, enableConda ? false
-, enablePython ? false
+, enableConda ? true
+, enablePython ? true
 , enableQuarto ? true
 , condaInstallationPath ? "~/.conda"
 , condaJlEnv ? "conda_jl"
 , pythonVersion ? "3.8"
 , enableGraphical ? false
-, enableNVIDIA ? false
+, enableNVIDIA ? true
 , enableNode ? false
 , commandName ? "scientific-fhs"
 , commandScript ? "bash"
